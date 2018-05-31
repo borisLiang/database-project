@@ -1,16 +1,14 @@
+//Bowei Liang
+//May 31,2018
+//COEN280: ORACLE datebase
+//Project: OracleDB + JDBC + JAVAX UI
 
 import org.json.*;
 import java.util.*;
 import java.io.*;
 import java.sql.*;
 import java.sql.Date;
-//import oracle.simplefan.*;
-/**
- * This is a simple example that demostrates how to open a database
- * connection before we are trying to execute SQL statements, and
- * close a database connection when we are done. You can build your
- * code using this example as a skeleton.
- */
+
 public class populate {
     static Connection con = null;
     public static void main(String args[]) {
@@ -69,12 +67,7 @@ public class populate {
         PreparedStatement create = con.prepareStatement("DROP TABLE bus_cat");
     }
 
-    /**
-     *
-     * @return a database connection
-     * @throws SQLException when there is an error when trying to connect database
-     * @throws ClassNotFoundException when the database driver is not found.
-     */
+
     private Connection openConnection() throws SQLException, ClassNotFoundException {
         // Load the Oracle database driver
 //        DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
@@ -96,10 +89,6 @@ public class populate {
         return DriverManager.getConnection(dbURL, userName, password);
     }
 
-    /**
-     * Close the database connection
-     * @param con
-     */
     private void closeConnection() {
         try {
             con.close();

@@ -1,20 +1,21 @@
-
+//Bowei Liang
+//May 31,2018
+//COEN280: ORACLE datebase
+//Project: OracleDB + JDBC + JAVAX UI
 
 
 import java.sql.*;
 import java.util.*;
 import java.text.MessageFormat;
 
-/**
- */
-public class hw3 {
+public class jdbc {
 
 
-    public hw3() throws SQLException, ClassNotFoundException{
+    public jdbc() throws SQLException, ClassNotFoundException{
 
 //        run();
     }
-    List<String> busList;
+    //没用 可删
     private void run() {
         Connection con = null;
         ResultSet result = null;
@@ -34,31 +35,22 @@ public class hw3 {
     }
 
 
-    /**
-     * This method will first clean up the table and then
-     * populate it with new data.
-     * @param con
-     * @throws java.sql.SQLException
-     */
 
-
-
-
-    //Query
-    public String VB1(Connection con) throws SQLException {
+    //Create Query(String) for CheckBoxs in Main Category, Sub Category, Attribute
+    public String column1(Connection con) throws SQLException {
         String query = "select DISTINCT MC.catName from mainCat MC";
         return query;
     }
-    public String VB2(Connection con, List<String> inputList, Boolean AndOr) throws SQLException {
+    public String column2(Connection con, List<String> inputList, Boolean AndOr) throws SQLException {
         StringBuilder query = new StringBuilder();
         String andOr = AndOr ? "INTERSECT" : "UNION";
         for (String i : inputList) {
             if(i != inputList.get(0)) {
-                query.append("\n" + andOr + " \n");
+                query.append(andOr + " ");
             }
-            query.append(String.format("SELECT DISTINCT SC.subCatName\n " +
-                    "FROM subCat SC, mainCat MC\n " +
-                    "WHERE SC.business_id  = MC.business_id AND\n" +
+            query.append(String.format("SELECT DISTINCT SC.subCatName " +
+                    "FROM subCat SC, mainCat MC " +
+                    "WHERE SC.business_id  = MC.business_id AND " +
                     "MC.catName = '%s' ", i));
         }
 
@@ -66,7 +58,7 @@ public class hw3 {
 
         return query.toString();
     }
-    public String VB3(Connection con, List<String> inputList,  Boolean AndOr) throws SQLException {
+    public String column3(Connection con, List<String> inputList, Boolean AndOr) throws SQLException {
         String andOr = AndOr ? "INTERSECT" : "UNION";
         StringBuilder query = new StringBuilder();
 
@@ -84,7 +76,12 @@ public class hw3 {
 
         return query.toString();
     }
-    //Create View
+
+//    Create tempurary view of Businesses:
+//     clicked on main category:    create BUS1
+//     clicked on sub category:     create BUS2
+//     clicked on category:         create BUS3
+//     ALL VIEWS CHANGE CONSTANTLY IF USER CLICKS
     public String BUS1(Connection con, List<String> inputList, Boolean AndOr) throws SQLException {
         if (inputList.size() == 0 || inputList == null) {
             return "";
@@ -104,9 +101,7 @@ public class hw3 {
         try {
             read(con, "DROP VIEW BUS1");
         } catch (SQLException e){
-
         }
-        System.out.println(query);
         read(con, query.toString());
         return query.toString();
     }
@@ -169,7 +164,9 @@ public class hw3 {
         read(con, query.toString());
         return query.toString();
     }
-    // return result of table
+
+    //Create Query(String) for 4 tables
+    // <editor-fold defaultstate="collapsed" desc="Table Query">
     public String busTable(Connection c, String table) throws SQLException{
         String query =  String.format("SELECT B.business_id, B.name, B.city, B.state, B.stars \n" +
                 "FROM bus B \n" +
@@ -221,7 +218,10 @@ public class hw3 {
         return tableDisplay(con, query);
 
     }
-    //Parse Data from DB
+    // </editor-fold>
+
+    //After query is constructed: execute
+    // <editor-fold defaultstate="collapsed" desc="execute">
     public List<String> execute (Connection con, String query) throws SQLException {
         return toList(read(con, query));
     }
@@ -240,8 +240,15 @@ public class hw3 {
         }
     }
     private List<String> toList(ResultSet result) throws SQLException {
-        ResultSetMetaData meta = result.getMetaData();
+
         List<String> outputList = new LinkedList<String>();
+        //check if result is empty
+        if(result == null || !result.next()) {
+            return outputList;
+        }
+
+        ResultSetMetaData meta = result.getMetaData();
+
         while (result.next()) {
             for (int col = 1; col <= meta.getColumnCount(); col++) {
                 if (col == 1) {
@@ -313,5 +320,6 @@ public class hw3 {
             System.err.println("Cannot close connection: " + e.getMessage());
         }
     }
+    // </editor-fold>
 }
   
