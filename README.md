@@ -1,4 +1,4 @@
-# COEN280: oracleDB-jdbc-javax UI(Netbean)
+# COEN280 Project: oracleDB/jdbc/javax UI(Netbean)
 
 //Author: Bowei Liang
 //May 31, 2018
