@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07d45860-bc04-4c61-bb14-8e671c67102a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netbeanUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hw3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/populate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/populate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/readJSON.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/small_yelp_business.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hw3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hw3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc_try.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/readJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/readJSON.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/readJSON.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/small_yelp_business.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test1.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,23 +24,128 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/hw3$netbean_main.ic" NAME="netbean_main Coverage Results" MODIFIED="1527735639171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test1.java">
+      <file leaf-file-name="netbeanUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netbeanUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="116" column="45" lean-forward="true" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+            <state relative-caret-position="450">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="e#0#5808#0" expanded="true" />
-                <element signature="e#867#897#0" expanded="true" />
-                <element signature="e#753#842#0" expanded="true" />
-                <element signature="e#4013#4100#0" expanded="true" />
-                <element signature="e#5258#5259#0" expanded="true" />
-                <element signature="e#5318#5319#0" expanded="true" />
-                <element signature="e#5820#5821#0" expanded="true" />
-                <element signature="e#5887#5888#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1127#1157#0" expanded="true" />
+                <element signature="e#913#80123#0" />
+                <element signature="e#6013#6183#0" expanded="true" />
+                <element signature="e#6182#6183#0" expanded="true" />
+                <element signature="e#6329#6330#0" expanded="true" />
+                <element signature="e#6387#6388#0" expanded="true" />
+                <element signature="e#6726#6897#0" expanded="true" />
+                <element signature="e#6896#6897#0" expanded="true" />
+                <element signature="e#7044#7045#0" expanded="true" />
+                <element signature="e#7103#7104#0" expanded="true" />
+                <element signature="e#14832#14833#0" expanded="true" />
+                <element signature="e#14890#14891#0" expanded="true" />
+                <element signature="e#14966#14967#0" expanded="true" />
+                <element signature="e#15026#15027#0" expanded="true" />
+                <element signature="e#15045#15218#0" expanded="true" />
+                <element signature="e#15217#15218#0" expanded="true" />
+                <element signature="e#17475#17476#0" expanded="true" />
+                <element signature="e#17534#17535#0" expanded="true" />
+                <element signature="e#17707#17708#0" expanded="true" />
+                <element signature="e#17764#17765#0" expanded="true" />
+                <element signature="e#21826#21827#0" expanded="true" />
+                <element signature="e#21891#21892#0" expanded="true" />
+                <element signature="e#22220#22221#0" expanded="true" />
+                <element signature="e#22281#22282#0" expanded="true" />
+                <element signature="e#22456#22457#0" expanded="true" />
+                <element signature="e#22516#22517#0" expanded="true" />
+                <element signature="e#26421#26422#0" expanded="true" />
+                <element signature="e#26485#26486#0" expanded="true" />
+                <element signature="e#26810#26811#0" expanded="true" />
+                <element signature="e#26870#26871#0" expanded="true" />
+                <element signature="e#27044#27045#0" expanded="true" />
+                <element signature="e#27103#27104#0" expanded="true" />
+                <element signature="e#30654#30655#0" expanded="true" />
+                <element signature="e#30712#30713#0" expanded="true" />
+                <element signature="e#34598#34599#0" expanded="true" />
+                <element signature="e#34656#34657#0" expanded="true" />
+                <element signature="e#34732#34733#0" expanded="true" />
+                <element signature="e#34792#34793#0" expanded="true" />
+                <element signature="e#37773#37947#0" expanded="true" />
+                <element signature="e#37946#37947#0" expanded="true" />
+                <element signature="e#38097#38098#0" expanded="true" />
+                <element signature="e#38159#38160#0" expanded="true" />
+                <element signature="e#46125#46126#0" expanded="true" />
+                <element signature="e#46184#46185#0" expanded="true" />
+                <element signature="e#46441#46442#0" expanded="true" />
+                <element signature="e#46500#46501#0" expanded="true" />
+                <element signature="e#46757#46758#0" expanded="true" />
+                <element signature="e#46816#46817#0" expanded="true" />
+                <element signature="e#47073#47074#0" expanded="true" />
+                <element signature="e#47132#47133#0" expanded="true" />
+                <element signature="e#47394#47395#0" expanded="true" />
+                <element signature="e#47453#47454#0" expanded="true" />
+                <element signature="e#47938#48115#0" expanded="true" />
+                <element signature="e#48114#48115#0" expanded="true" />
+                <element signature="e#63127#63128#0" expanded="true" />
+                <element signature="e#63185#63186#0" expanded="true" />
+                <element signature="e#63261#63262#0" expanded="true" />
+                <element signature="e#63321#63322#0" expanded="true" />
+                <element signature="e#63341#63515#0" expanded="true" />
+                <element signature="e#63514#63515#0" expanded="true" />
+                <element signature="e#67761#67762#0" expanded="true" />
+                <element signature="e#67824#67825#0" expanded="true" />
+                <element signature="e#70323#70324#0" expanded="true" />
+                <element signature="e#70381#70382#0" expanded="true" />
+                <element signature="e#70457#70458#0" expanded="true" />
+                <element signature="e#70517#70518#0" expanded="true" />
+                <element signature="e#77276#77277#0" expanded="true" />
+                <element signature="e#77333#77334#0" expanded="true" />
+                <element signature="e#77530#77700#0" expanded="true" />
+                <element signature="e#77699#77700#0" expanded="true" />
+                <element signature="e#80100#80174#0" expanded="true" />
+                <element signature="e#79380#80581#0" />
+                <element signature="e#80586#81754#0" />
+                <element signature="e#81759#82352#0" />
+                <element signature="e#83439#83751#0" />
+                <element signature="e#84280#84934#0" />
+                <element signature="e#89751#89849#0" />
+                <element signature="e#91762#93726#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hw3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hw3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#BUS1#0;class#hw3_noMain#0" />
+                <element signature="method#BUS2#0;class#hw3_noMain#0" />
+                <element signature="method#BUS3#0;class#hw3_noMain#0" />
+                <element signature="method#busTable#0;class#hw3_noMain#0" />
+                <element signature="method#userTable#0;class#hw3_noMain#0" />
+                <element signature="method#busReviewScene#0;class#hw3_noMain#0" />
+                <element signature="method#userReviewScene#0;class#hw3_noMain#0" />
+                <element signature="method#desc#0;class#hw3_noMain#0" />
+                <element signature="method#openConnection#0;class#hw3_noMain#0" />
+                <element signature="method#closeConnection#0;class#hw3_noMain#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="populate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/populate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4379">
+              <caret line="306" column="17" selection-start-line="306" selection-start-column="17" selection-end-line="306" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -54,6 +163,20 @@
     <findStrings>
       <find>bus_bu</find>
       <find>test1</find>
+      <find>main</find>
+      <find>stat</find>
+      <find>spanel</find>
+      <find>static</find>
+      <find>mainCAt</find>
+      <find>private</find>
+      <find>EXECUTE</find>
+      <find>close</find>
+      <find>userBu</find>
+      <find>click</find>
+      <find>DateChooser</find>
+      <find>usert</find>
+      <find>userTable</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,25 +192,30 @@
         <option value="$PROJECT_DIR$/src/main/java/jdbc_try.java" />
         <option value="$PROJECT_DIR$/src/main/java/populate.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI_test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hw3.java" />
         <option value="$PROJECT_DIR$/src/main/java/test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netbean_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hw3_noMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netbean_main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netbeanUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hw3.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="33" />
-    <option name="y" value="171" />
-    <option name="width" value="1061" />
-    <option name="height" value="597" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,35 +225,18 @@
             </path>
             <path>
               <item name="hw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="database-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="database-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="database-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw3" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.14453125" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
@@ -142,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test1">
+  <component name="RunManager" selected="Application.netbeanUI">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -151,28 +262,23 @@
       <module name="hw3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="hw3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw3" />
+    <configuration name="netbeanUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netbeanUI" />
       <module name="hw3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="jdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc" />
+    <configuration name="netbeanUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netbeanUI" />
       <module name="hw3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="populate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="populate" />
+    <configuration name="netbean_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netbean_1" />
       <module name="hw3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="readJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="readJSON" />
-      <module name="hw3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1" />
+    <configuration name="test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test3" />
       <module name="hw3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -215,19 +321,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.readJSON" />
-      <item itemvalue="Application.jdbc" />
-      <item itemvalue="Application.populate" />
+      <item itemvalue="Application.netbeanUI" />
+      <item itemvalue="Application.test3" />
+      <item itemvalue="Application.netbean_1" />
       <item itemvalue="Application.hw3" />
-      <item itemvalue="Application.test1" />
+      <item itemvalue="Application.netbeanUI" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test1" />
+        <item itemvalue="Application.netbeanUI" />
+        <item itemvalue="Application.test3" />
         <item itemvalue="Application.hw3" />
-        <item itemvalue="Application.populate" />
-        <item itemvalue="Application.hw3" />
-        <item itemvalue="Application.jdbc" />
+        <item itemvalue="Application.netbean_1" />
+        <item itemvalue="Application.netbeanUI" />
       </list>
     </recent_temporary>
   </component>
@@ -250,31 +356,32 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.31839624" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.2393868" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22995283" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2629717" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47523585" visible="true" weight="0.15277778" />
-      <window_info id="Learn" order="2" />
-      <window_info id="Structure" order="1" sideWeight="0.5247642" side_tool="true" visible="true" weight="0.15277778" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6688" visible="true" weight="0.20277777" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3466981" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Structure" order="1" sideWeight="0.3312" side_tool="true" visible="true" weight="0.20277777" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39976415" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" visible="true" weight="0.13663663" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.34691012" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -282,127 +389,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="46" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/populate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3285">
-          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#executeQuery#0;class#populate#0" />
-            <element signature="method#User_Builder#0;class#populate#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hw3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="33" lean-forward="true" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#BusinessScene#0;class#test1#0" />
-            <element signature="e#1170#1178#0" expanded="true" />
-            <element signature="e#1400#1408#0" expanded="true" />
-            <element signature="e#1721#1729#0" expanded="true" />
-            <element signature="method#VB1#0;class#test1#0" />
-            <element signature="method#BUS1#0;class#test1#0" />
-            <element signature="method#VB2#0;class#test1#0" />
-            <element signature="method#BUS2#0;class#test1#0" />
-            <element signature="method#VB3#0;class#test1#0" />
-            <element signature="method#BUS3#0;class#test1#0" />
-            <element signature="method#read#0;class#test1#0" />
-            <element signature="method#desc#0;class#test1#0" />
-            <element signature="method#toList#0;class#test1#0" />
-            <element signature="e#6703#6711#0" expanded="true" />
-            <element signature="method#navigateResult#0;class#test1#0" />
-            <element signature="method#openConnection#0;class#test1#0" />
-            <element signature="method#closeConnection#0;class#test1#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/populate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3330">
-          <caret line="222" column="23" lean-forward="true" selection-start-line="222" selection-start-column="23" selection-end-line="222" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#executeQuery#0;class#populate#0" />
-            <element signature="method#User_Builder#0;class#populate#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/populate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4410">
-          <caret line="294" column="52" selection-start-line="294" selection-start-column="52" selection-end-line="294" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#executeQuery#0;class#populate#0" />
-            <element signature="method#User_Builder#0;class#populate#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hw3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/OJDBC8-Full/ojdbc8.jar!/oracle/jdbc/driver/T4CTTIoer11.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3705">
-          <caret line="247" column="65" selection-start-line="247" selection-start-column="65" selection-end-line="247" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/OJDBC8-Full/ojdbc8.jar!/oracle/jdbc/driver/OraclePreparedStatementWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10785">
-          <caret line="719" column="59" selection-start-line="719" selection-start-column="59" selection-end-line="719" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hw3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/OJDBC8-Full/ojdbc8.jar!/oracle/jdbc/driver/T4CTTIoer11.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3705">
-          <caret line="247" column="65" lean-forward="true" selection-start-line="247" selection-start-column="65" selection-end-line="247" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/OJDBC8-Full/ojdbc8.jar!/oracle/jdbc/driver/OraclePreparedStatementWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10785">
-          <caret line="719" column="59" lean-forward="true" selection-start-line="719" selection-start-column="59" selection-end-line="719" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/populate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3285">
-          <caret line="219" column="63" selection-start-line="219" selection-start-column="63" selection-end-line="219" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#executeQuery#0;class#populate#0" />
-            <element signature="method#User_Builder#0;class#populate#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hw3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
@@ -632,58 +622,217 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/populate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netbean_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        <state relative-caret-position="465">
+          <caret line="31" column="27" lean-forward="true" selection-end-line="1144" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#executeQuery#0;class#populate#0" />
-            <element signature="method#User_Builder#0;class#populate#0" />
+            <element signature="e#2147#2216#0" expanded="true" />
+            <element signature="e#66763#66860#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/javax/swing/JPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/javax/swing/JToggleButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="323" column="31" lean-forward="true" selection-start-line="323" selection-start-column="31" selection-end-line="323" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hw3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="494">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#BusinessScene#0;class#test1#0" />
-            <element signature="e#1170#1178#0" expanded="true" />
-            <element signature="e#1400#1408#0" expanded="true" />
-            <element signature="e#1721#1729#0" expanded="true" />
-            <element signature="method#VB1#0;class#test1#0" />
-            <element signature="method#BUS1#0;class#test1#0" />
-            <element signature="method#VB2#0;class#test1#0" />
-            <element signature="method#BUS2#0;class#test1#0" />
-            <element signature="method#VB3#0;class#test1#0" />
-            <element signature="method#BUS3#0;class#test1#0" />
-            <element signature="method#read#0;class#test1#0" />
-            <element signature="method#desc#0;class#test1#0" />
-            <element signature="method#toList#0;class#test1#0" />
-            <element signature="e#6703#6711#0" expanded="true" />
-            <element signature="method#navigateResult#0;class#test1#0" />
-            <element signature="method#openConnection#0;class#test1#0" />
-            <element signature="method#closeConnection#0;class#test1#0" />
+            <element signature="method#UserScene#0;class#hw3#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/OJDBC8-Full/ojdbc8.jar!/oracle/jdbc/driver/OracleStatementWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netbeanUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1769" selection-start-line="1769" selection-end-line="1769" />
+          <folding>
+            <element signature="e#71104#71105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/javax/swing/ImageIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="216" selection-start-line="216" selection-end-line="216" />
+          <folding>
+            <element signature="e#6758#6759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="116" column="45" lean-forward="true" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+        <state relative-caret-position="-350">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding>
-            <element signature="e#0#5808#0" expanded="true" />
-            <element signature="e#867#897#0" expanded="true" />
-            <element signature="e#753#842#0" expanded="true" />
-            <element signature="e#4013#4100#0" expanded="true" />
-            <element signature="e#5258#5259#0" expanded="true" />
-            <element signature="e#5318#5319#0" expanded="true" />
-            <element signature="e#5820#5821#0" expanded="true" />
-            <element signature="e#5887#5888#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netbeanUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1127#1157#0" expanded="true" />
+            <element signature="e#913#80123#0" />
+            <element signature="e#6013#6183#0" expanded="true" />
+            <element signature="e#6182#6183#0" expanded="true" />
+            <element signature="e#6329#6330#0" expanded="true" />
+            <element signature="e#6387#6388#0" expanded="true" />
+            <element signature="e#6726#6897#0" expanded="true" />
+            <element signature="e#6896#6897#0" expanded="true" />
+            <element signature="e#7044#7045#0" expanded="true" />
+            <element signature="e#7103#7104#0" expanded="true" />
+            <element signature="e#14832#14833#0" expanded="true" />
+            <element signature="e#14890#14891#0" expanded="true" />
+            <element signature="e#14966#14967#0" expanded="true" />
+            <element signature="e#15026#15027#0" expanded="true" />
+            <element signature="e#15045#15218#0" expanded="true" />
+            <element signature="e#15217#15218#0" expanded="true" />
+            <element signature="e#17475#17476#0" expanded="true" />
+            <element signature="e#17534#17535#0" expanded="true" />
+            <element signature="e#17707#17708#0" expanded="true" />
+            <element signature="e#17764#17765#0" expanded="true" />
+            <element signature="e#21826#21827#0" expanded="true" />
+            <element signature="e#21891#21892#0" expanded="true" />
+            <element signature="e#22220#22221#0" expanded="true" />
+            <element signature="e#22281#22282#0" expanded="true" />
+            <element signature="e#22456#22457#0" expanded="true" />
+            <element signature="e#22516#22517#0" expanded="true" />
+            <element signature="e#26421#26422#0" expanded="true" />
+            <element signature="e#26485#26486#0" expanded="true" />
+            <element signature="e#26810#26811#0" expanded="true" />
+            <element signature="e#26870#26871#0" expanded="true" />
+            <element signature="e#27044#27045#0" expanded="true" />
+            <element signature="e#27103#27104#0" expanded="true" />
+            <element signature="e#30654#30655#0" expanded="true" />
+            <element signature="e#30712#30713#0" expanded="true" />
+            <element signature="e#34598#34599#0" expanded="true" />
+            <element signature="e#34656#34657#0" expanded="true" />
+            <element signature="e#34732#34733#0" expanded="true" />
+            <element signature="e#34792#34793#0" expanded="true" />
+            <element signature="e#37773#37947#0" expanded="true" />
+            <element signature="e#37946#37947#0" expanded="true" />
+            <element signature="e#38097#38098#0" expanded="true" />
+            <element signature="e#38159#38160#0" expanded="true" />
+            <element signature="e#46125#46126#0" expanded="true" />
+            <element signature="e#46184#46185#0" expanded="true" />
+            <element signature="e#46441#46442#0" expanded="true" />
+            <element signature="e#46500#46501#0" expanded="true" />
+            <element signature="e#46757#46758#0" expanded="true" />
+            <element signature="e#46816#46817#0" expanded="true" />
+            <element signature="e#47073#47074#0" expanded="true" />
+            <element signature="e#47132#47133#0" expanded="true" />
+            <element signature="e#47394#47395#0" expanded="true" />
+            <element signature="e#47453#47454#0" expanded="true" />
+            <element signature="e#47938#48115#0" expanded="true" />
+            <element signature="e#48114#48115#0" expanded="true" />
+            <element signature="e#63127#63128#0" expanded="true" />
+            <element signature="e#63185#63186#0" expanded="true" />
+            <element signature="e#63261#63262#0" expanded="true" />
+            <element signature="e#63321#63322#0" expanded="true" />
+            <element signature="e#63341#63515#0" expanded="true" />
+            <element signature="e#63514#63515#0" expanded="true" />
+            <element signature="e#67761#67762#0" expanded="true" />
+            <element signature="e#67824#67825#0" expanded="true" />
+            <element signature="e#70323#70324#0" expanded="true" />
+            <element signature="e#70381#70382#0" expanded="true" />
+            <element signature="e#70457#70458#0" expanded="true" />
+            <element signature="e#70517#70518#0" expanded="true" />
+            <element signature="e#77276#77277#0" expanded="true" />
+            <element signature="e#77333#77334#0" expanded="true" />
+            <element signature="e#77530#77700#0" expanded="true" />
+            <element signature="e#77699#77700#0" expanded="true" />
+            <element signature="e#80100#80174#0" expanded="true" />
+            <element signature="e#79380#80581#0" />
+            <element signature="e#80586#81754#0" />
+            <element signature="e#81759#82352#0" />
+            <element signature="e#83439#83751#0" />
+            <element signature="e#84280#84934#0" />
+            <element signature="e#89751#89849#0" />
+            <element signature="e#91762#93726#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/populate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4379">
+          <caret line="306" column="17" selection-start-line="306" selection-start-column="17" selection-end-line="306" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hw3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#BUS1#0;class#hw3_noMain#0" />
+            <element signature="method#BUS2#0;class#hw3_noMain#0" />
+            <element signature="method#BUS3#0;class#hw3_noMain#0" />
+            <element signature="method#busTable#0;class#hw3_noMain#0" />
+            <element signature="method#userTable#0;class#hw3_noMain#0" />
+            <element signature="method#busReviewScene#0;class#hw3_noMain#0" />
+            <element signature="method#userReviewScene#0;class#hw3_noMain#0" />
+            <element signature="method#desc#0;class#hw3_noMain#0" />
+            <element signature="method#openConnection#0;class#hw3_noMain#0" />
+            <element signature="method#closeConnection#0;class#hw3_noMain#0" />
           </folding>
         </state>
       </provider>
