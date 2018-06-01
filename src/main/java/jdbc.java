@@ -59,6 +59,9 @@ public class jdbc {
         return query.toString();
     }
     public String column3(Connection con, List<String> inputList, Boolean AndOr) throws SQLException {
+        if (inputList == null || inputList.size() == 0 ) {
+            return "";
+        }
         String andOr = AndOr ? "INTERSECT" : "UNION";
         StringBuilder query = new StringBuilder();
 
@@ -71,9 +74,11 @@ public class jdbc {
                     "WHERE SC.business_id  = A.business_id AND " +
                     "SC.subCatName = '%s' ", i));
         }
-
+        query.append("INTERSECT " +
+                "SELECT DISTINCT A.attributes " +
+                "FROM attr A, BUS2 B2 " +
+                "WHERE A.business_id = B2.business_id");
 //        System.out.println(query.toString());
-
         return query.toString();
     }
 
@@ -103,6 +108,7 @@ public class jdbc {
         } catch (SQLException e){
         }
         read(con, query.toString());
+        System.out.println(query.toString());
         return query.toString();
     }
     public String BUS2(Connection con, List<String> inputList, Boolean AndOr) throws SQLException {
@@ -123,7 +129,6 @@ public class jdbc {
             }
             query.append("INTERSECT \n");
         }
-
         query.append("SELECT DISTINCT * " +
                 "FROM BUS1 B1 ");
         try {
@@ -131,7 +136,7 @@ public class jdbc {
         } catch (SQLException e){
 
         }
-//        System.out.println(query);
+        System.out.println(query);
         read(con, query.toString());
         return query.toString();
     }
@@ -160,7 +165,7 @@ public class jdbc {
         } catch (SQLException e){
         }
 
-//        System.out.println(query);
+        System.out.println(query);
         read(con, query.toString());
         return query.toString();
     }
@@ -205,21 +210,22 @@ public class jdbc {
         String andOr = AndOr ? "AND" : "OR";
 
         query = MessageFormat.format(query, andOr, bus_id, inputDate1, inputDate2, vote_condition, numVotes, star_condition, stars);
+        System.out.println(query);
         return query;
 
     }
     public Object[][] userReviewScene(Connection con, String user_id)  throws SQLException{
-        String query = "SELECT R.review_id, B.name, R.stars " +
-                "FROM REVIEW R, bus B " +
-                "WHERE R.business_id = B.business_id AND " +
-                "R.user_id = ''{0}''  ";
+            String query = "SELECT R.review_id, B.name, R.stars, R.main_text " +
+                    "FROM REVIEW R, bus B " +
+                    "WHERE R.business_id = B.business_id AND " +
+                    "R.user_id = ''{0}''  ";
 
-        query = MessageFormat.format(query,  user_id);
-        return tableDisplay(con, query);
+            query = MessageFormat.format(query,  user_id);
+            System.out.println(query);
+            return tableDisplay(con, query);
 
     }
     // </editor-fold>
-
     //After query is constructed: execute
     // <editor-fold defaultstate="collapsed" desc="execute">
     public List<String> execute (Connection con, String query) throws SQLException {
